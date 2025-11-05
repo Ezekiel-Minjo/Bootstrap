@@ -7,6 +7,11 @@
       <meta
       charset="UTF-8"
     />
+    <link rel="stylesheet" href="/static/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
   </head>
@@ -47,9 +52,9 @@
     <div class="container-fluid bg-primary p-5 text-danger">
       <h2>Welcome to Bootstrap</h2>
     </div>
-    <div class="container">
+    <div class="container mt-3">
       <div class="row">
-        <div class="col-4">
+        <div class="col-4 bg-info text-success">
           <h2>Colum one</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
@@ -57,8 +62,13 @@
             perspiciatis animi? Natus similique, itaque delectus sunt rerum
             perferendis eveniet! Quidem, fuga recusandae.
           </p>
+          <img
+            src="/static/images/img--1.jpg"
+            class="img-thumbnail"
+            alt="chair"
+          />
         </div>
-        <div class="col-4">
+        <div class="col-4 bg-success text-danger">
           <h2>Column Two</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
@@ -66,8 +76,13 @@
             saepe aperiam neque, reprehenderit officia nesciunt laudantium
             veniam, aut eaque?
           </p>
+          <img
+            src="/static/images/img--2.jpg"
+            class="img-thumbnail"
+            alt="chair"
+          />
         </div>
-        <div class="col-4">
+        <div class="col-4 bg-success-subtle text-warning">
           <h2>Column Three</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
@@ -75,9 +90,78 @@
             totam ullam fugiat, earum ducimus dignissimos sequi corrupti! Ab
             tenetur voluptatibus dolorum reprehenderit?
           </p>
+          <img
+            src="/static/images/img--3.jpg"
+            class="img-thumbnail"
+            alt="chair"
+          />
         </div>
       </div>
     </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <!-- card 1 -->
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://www.safaricom.co.ke/images/e-sim-card-new.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tarrifs</h5>
+              <p class="card-text">
+                Enjoy flexible talk time with your friends and family and know
+                how much talk time you can get at your budget.
+              </p>
+              <a href="#" class="btn-primary">Explore Offers</a>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://www.safaricom.co.ke/images/405x397_2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Safaricom VoLTE</h5>
+              <p class="card-text">
+                Enjoy ultra HD quality voice calls and videos with sound so
+                clear, it’ll feel like you’re right next to your family and
+                friends.
+              </p>
+              <a href="#" class="btn-primary">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://www.safaricom.co.ke/images/405x397_4.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Reverse call</h5>
+              <p class="card-text">
+                A service that allows a customer to make a call with or without
+                airtime and the receiver of the call pays on the caller’s
+                behalf.
+              </p>
+              <a href="#" class="btn-primary">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-success">
+      <i class="bi bi-facebook"> facebook</i>
+    </button>
 
     <script src="static/js/bootstrap.bundle.min.js"></script>
   </body>
